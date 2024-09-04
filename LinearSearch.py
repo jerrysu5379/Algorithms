@@ -5,9 +5,9 @@ def linearSearch(A, n, x):
     return "Not found"
 
 def main():
-    A = [1, 2, 3, 4, 5]
+    A = [int(x) for x in input().split()]
     n = len(A)
-    x = 3
+    x = int(input())
     print(linearSearch(A, n, x))
 
 if __name__ == "__main__":

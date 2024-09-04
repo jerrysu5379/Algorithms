@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectRootManager" version="2" project-jdk-name="Remote Python 3.10.12 (sftp://ubuntu@43.156.11.113:22/home/ubuntu/.virtualenvs/auth/bin/python)" project-jdk-type="Python SDK" />
+  <component name="Black">
+    <option name="sdkName" value="Python 3.10.12 WSL (Ubuntu): (/home/js/.virtualenvs/test/bin/python)" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.10.12 WSL (Ubuntu): (/home/js/.virtualenvs/test/bin/python)" project-jdk-type="Python SDK" />
 </project>

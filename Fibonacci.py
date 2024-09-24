@@ -37,7 +37,7 @@ def fibonacci_remaster_list(n):
 
 def main():
     n = int(input())
-    print(fibonacci_remaster_list(n))
+    print(fibonacci(n))
 
 if __name__ == "__main__":
     main()

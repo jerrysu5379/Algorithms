@@ -5,3 +5,11 @@ def re_fib(n, result):
         return 1
     else:
         return re_fib(n-1, result) + re_fib(n-2, result)
+
+def main():
+    n = int(input())
+    result = [0, 1]
+    print(re_fib(n, result))
+
+if __name__ == "__main__":
+    main()

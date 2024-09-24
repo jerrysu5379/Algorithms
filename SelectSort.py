@@ -5,7 +5,8 @@ def select_sort(arr):
             if arr[j] < arr[min_index]:
                 min_index = j
         arr[i], arr[min_index] = arr[min_index], arr[i]
-    return arr
+    return
+
 
 def main():
     arr = list(map(int, input().split()))
